@@ -1,0 +1,53 @@
+# Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw data
+data/av2/
+
+# Generated datasets
+outputs/dataset/
+outputs/bev_inputs/
+outputs/bev_labels/
+outputs/dataset_camera_color/
+outputs/dataset_main_road_corridor/
+outputs/dataset_main_road_corridor_low_surface/
+outputs/dataset_main_road_corridor_position_features/
+outputs/bev_inputs/
+outputs/bev_labels/
+outputs/calibration/
+
+# Model files
+outputs/model_drivable/*.pt
+outputs/model_drivable/*.pth
+outputs/model_drivable/*.ckpt
+outputs/model_drivable/checkpoints/
+
+outputs/model_drivable_camera_color/*.pt
+outputs/model_drivable_camera_color/*.pth
+outputs/model_drivable_camera_color/*.ckpt
+outputs/model_drivable_camera_color/checkpoints/
+
+outputs/model_main_road_corridor/*.pt
+outputs/model_main_road_corridor/*.pth
+outputs/model_main_road_corridor/*.ckpt
+outputs/model_main_road_corridor/checkpoints/
+
+outputs/model_main_road_corridor_position_features/*.pt
+outputs/model_main_road_corridor_position_features/*.pth
+outputs/model_main_road_corridor_position_features/*.ckpt
+outputs/model_main_road_corridor_position_features/checkpoints/
+
+# Large or temporary outputs
+outputs/predictions/
+outputs/cache/
+
+# System files
+.DS_Store
+Thumbs.db
