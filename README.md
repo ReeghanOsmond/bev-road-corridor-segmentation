@@ -131,23 +131,23 @@ The final model was evaluated using raw and postprocessed predictions. The postp
 The detailed experiment history, failure analysis, and baseline comparison are documented here:
 
 ```text
-reports/bev_road_geometry_baseline_analysis.md
+report/bev_road_geometry_baseline_analysis.md
 ```
 
 ## Repository structure
 
 ```text
-camera-lidar-bev-road-geometry/
+bev-road-corridor-segmentation/
 ├── data/
 ├── outputs/
-├── reports/
+├── report/
 ├── scripts/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
 
-The `data/` folder stores the local Argoverse 2 dataset and is excluded from Git. The `outputs/` folder contains selected figures and training metrics used in the README and report. The `scripts/` folder contains visualization, data preparation, and training scripts. The `reports/` folder contains the detailed technical analysis.
+The `data/` folder stores the local Argoverse 2 dataset and is excluded from Git. The `outputs/` folder contains selected figures and training metrics used in the README and report. The `scripts/` folder contains visualization, data preparation, and training scripts. The `report/` folder contains the detailed technical analysis.
 
 ## Key scripts
 
